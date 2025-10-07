@@ -29,7 +29,7 @@ export default function PropertyDetail() {
         {property.images?.length > 0 && (
           <div className="relative group mb-8 rounded-2xl overflow-hidden shadow-2xl">
             <img
-              src={`http://localhost:5000${property.images[0]}`}
+              src={`https://dreamhomes-backend-3mbn.onrender.com${property.images[0]}`}
               alt={property.title}
               className="w-full h-[400px] sm:h-[500px] lg:h-[350px] object-cover transition-transform duration-700 group-hover:scale-105"
             />

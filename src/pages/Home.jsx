@@ -64,7 +64,7 @@ export default function HomePage() {
               >
                 <div className="rounded-2xl  absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70 z-10"></div>
                 <img
-                  src={`http://localhost:5000${currentProperty.images?.[0]}`}
+                  src={`https://dreamhomes-backend-3mbn.onrender.com${currentProperty.images?.[0]}`}
                   alt={currentProperty.title}
                   className="w-full h-full object-cover rounded-2xl"
                 />
