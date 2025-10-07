@@ -15,8 +15,11 @@ function AppWrapper() {
   const hideFooter = location.pathname === "/login" || location.pathname === "/register";
 
   return (
+   
     <>
+    
       <Navbar />
+      {/* Ensure the page scrolls to top on route change */}
       <ScrollToTop />
       <div className="">
         <Routes>

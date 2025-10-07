@@ -18,6 +18,7 @@ export default function AddProperty() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const fd = new FormData();
+    {/* Append form fields and images to FormData */}
     Object.keys(form).forEach((key) => fd.append(key, form[key]));
     for (const img of images) fd.append("images", img);
 
@@ -33,7 +34,7 @@ export default function AddProperty() {
       alert("Error adding property");
     }
   };
-
+{/* Simple form for adding a property */}
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4 py-10">
       <form
