@@ -207,7 +207,7 @@ export default function HomePage() {
                   <Link to={`/properties/${property._id}`} className="group block">
                     <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100">
                       <div className="relative h-64 overflow-hidden">
-                        <img src={`http://localhost:5000${property.images?.[0]}`} alt={property.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+                        <img src={`https://dreamhomes-backend-3mbn.onrender.com${property.images?.[0]}`} alt={property.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
                         <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-full text-sm font-bold text-gray-800">
                           {property.type}
                         </div>
