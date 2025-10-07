@@ -1,16 +1,59 @@
-# React + Vite
+# 🏡 DreamHomes Real Estate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/dreamhomes)
+![GitHub stars](https://img.shields.io/github/stars/yourusername/dreamhomes?style=social)
+![GitHub forks](https://img.shields.io/github/forks/yourusername/dreamhomes?style=social)
+![License](https://img.shields.io/github/license/yourusername/dreamhomes)
+![Built with MERN](https://img.shields.io/badge/Built%20with-MERN%20Stack-green?logo=mongodb)
+![Vercel Deploy](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Overview
 
-## React Compiler
+**DreamHomes** is a modern real estate web application built with the **MERN Stack (MongoDB, Express, React, Node.js)**.  
+It allows users to browse featured listings, view detailed property pages, and contact agents seamlessly — all in a beautifully responsive UI.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Full CRUD operations for property listings  
+✅ Responsive and modern UI with Tailwind CSS  
+✅ MongoDB integration for dynamic property data  
+✅ Featured and recent property sections  
+✅ Real-time slideshow and property gallery  
+✅ Admin dashboard for managing properties  
+✅ Secure user authentication with JWT  
+✅ Deployed on **Vercel** (frontend) and **MongoDB Atlas** (database)
+
+---
+
+## 🖼️ Screenshots
+
+| Homepage | Property Details | Admin Panel |
+|-----------|------------------|--------------|
+| ![Homepage](docs/homepage.png) | ![Property](docs/property.png) | ![Admin](docs/admin.png) |
+
+> You can store screenshots in a `/docs` folder inside your repo for better organization.
+
+---
+
+## ⚙️ Tech Stack
+
+| Category | Technology |
+|-----------|-------------|
+| Frontend | React, TailwindCSS |
+| Backend | Node.js, Express |
+| Database | MongoDB Atlas |
+| Deployment | Vercel |
+| Version Control | Git & GitHub |
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/yourusername/dreamhomes.git
+cd dreamhomes/backend
