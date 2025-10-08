@@ -185,10 +185,16 @@ export default function PropertyDetail() {
               <h3 className="text-lg sm:text-xl font-bold text-slate-900 mb-3 sm:mb-4">Interested?</h3>
               <p className="text-slate-600 mb-4 sm:mb-6 text-sm sm:text-base">Get in touch with us to schedule a viewing or learn more about this property.</p>
               
-              <button className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-3 sm:py-4 rounded-xl shadow-lg transition-all duration-200 hover:shadow-xl hover:-translate-y-0.5">
-                Contact Agent
-              </button>
+            <a
+            href={`mailto:agent@example.com?subject=Interested in this property`}
+            className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-3 sm:py-4 rounded-xl shadow-lg transition-all duration-200 hover:shadow-xl hover:-translate-y-0.5 inline-block text-center"
+          >
+          Contact Agent
+        </a>
+
             </div>
+
+
           </div>
         </div>
       </div>
