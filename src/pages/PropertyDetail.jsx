@@ -1,11 +1,14 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";
 import { MapPin, DollarSign, Home, Calendar, Maximize, Bed, Bath, Square, Car, Ruler, Building2 } from "lucide-react";
 import api from "../api";
+import { AuthContext } from "../context/AuthContext";
 
 export default function PropertyDetail() {
   const { id } = useParams();
+  const {user}=useContext(AuthContext)
   const [property, setProperty] = useState(null);
+  const GetUserEmail= user?.email || "guest@gmail.com";
 
   useEffect(() => {
     api.get(`/properties/${id}`).then((res) => setProperty(res.data));
@@ -186,7 +189,7 @@ export default function PropertyDetail() {
               <p className="text-slate-600 mb-4 sm:mb-6 text-sm sm:text-base">Get in touch with us to schedule a viewing or learn more about this property.</p>
               
             <a
-            href={`mailto:agent@example.com?subject=Interested in this property`}
+            href={`mailto:${GetUserEmail}?subject=Interested in this property`}
             className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-3 sm:py-4 rounded-xl shadow-lg transition-all duration-200 hover:shadow-xl hover:-translate-y-0.5 inline-block text-center"
           >
           Contact Agent
