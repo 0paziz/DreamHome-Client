@@ -15,7 +15,7 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Properties", path: "/properties" },
-    ...(user ? [{ name: "Add Property", path: "/add-property", icon: <Plus className="w-4 h-4" /> }] : []),
+    ...(user ? [{ name: "Add Property", path: "/dashboard", icon: <Plus className="w-4 h-4" /> }] : []),
   ];
 
   return (
