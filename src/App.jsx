@@ -9,10 +9,11 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import Footer from "./components/Footer";
 import HomePage from "./pages/Home";
 import ScrollToTop from "./components/ScrollToTop";
+import Dashboard from "./pages/Dashboard";
 
 function AppWrapper() {
   const location = useLocation();
-  const hideFooter = location.pathname === "/login" || location.pathname === "/register";
+  const hideFooter = location.pathname === "/login" || location.pathname === "/register" || location.pathname === "/dashboard";
 
   return (
    
@@ -24,15 +25,16 @@ function AppWrapper() {
       <div className="">
         <Routes>
           <Route path="/" element={<HomePage />} />
+
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/properties" element={<PropertyList />} />
           <Route path="/properties/:id" element={<PropertyDetail />} />
           <Route
-            path="/add-property"
+            path="/dashboard"
             element={
               <ProtectedRoute>
-                <AddProperty />
+                <Dashboard/>
               </ProtectedRoute>
             }
           />
