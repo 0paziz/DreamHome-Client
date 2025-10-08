@@ -63,7 +63,7 @@ export default function HomePage() {
               >
                 <div className="rounded-xl sm:rounded-2xl absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70 z-10"></div>
                 <img
-                  src={`${import.meta.env.VITE_APP_API_URL}${currentProperty.images?.[0]}`}
+                  src={`${currentProperty.images?.[0]}`}
                   alt={currentProperty.title}
                   className="w-full h-full object-cover rounded-xl sm:rounded-2xl"
                 />
@@ -213,7 +213,7 @@ export default function HomePage() {
                   <Link to={`/properties/${property._id}`} className="group block w-full text-left">
                     <div className="bg-white rounded-xl sm:rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100">
                       <div className="relative h-48 sm:h-56 md:h-64 overflow-hidden">
-                        <img src={`${import.meta.env.VITE_APP_API_URL}${property.images?.[0]}`} alt={property.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+                        <img src={`${property.images?.[0]}`} alt={property.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
                         <div className="absolute top-3 sm:top-4 right-3 sm:right-4 bg-white/95 backdrop-blur-sm px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-bold text-gray-800">
                           {property.type}
                         </div>

@@ -29,7 +29,7 @@ export default function PropertyDetail() {
         {property.images?.length > 0 && (
           <div className="relative group mb-6 sm:mb-8 rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl">
             <img
-              src={`${import.meta.env.VITE_APP_API_URL}${property.images[0]}`}
+              src={`${property.images[0]}`}
               alt={property.title}
               className="w-full h-[300px] sm:h-[400px] lg:h-[350px] object-cover transition-transform duration-700 group-hover:scale-105"
             />

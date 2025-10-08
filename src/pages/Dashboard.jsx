@@ -124,7 +124,7 @@ export default function Dashboard() {
                 <div className="relative h-56 bg-gradient-to-br from-gray-200 to-gray-300 overflow-hidden group">
                   {p.images?.[0] ? (
                     <img
-                      src={`${import.meta.env.VITE_APP_API_URL}${p.images[0]}`}
+                      src={`${p.images[0]}`}
                       alt={p.title}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />

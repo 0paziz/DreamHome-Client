@@ -152,7 +152,7 @@ export default function PropertyList() {
                         <div className="relative h-56 overflow-hidden bg-gray-200">
                           {p.images?.[0] ? (
                             <img
-                              src={`${import.meta.env.VITE_APP_API_URL}${p.images[0]}`}
+                              src={`${p.images[0]}`}
                               alt={p.title}
                               className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                             />
