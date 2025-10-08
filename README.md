@@ -33,7 +33,7 @@ It allows users to browse featured listings, view detailed property pages, and c
 
 | Homepage | Property Details | Admin Panel |
 |-----------|------------------|--------------|
-| ![Homepage](docs/homepage.png) | ![Property](docs/property.png) | ![Admin](docs/admin.png) |
+| ![Homepage](/frontend\public\homepage.png)  | ![Property](/frontend/public/property.png) | ![Admin](/frontend\public\admin.png) |
 
 > You can store screenshots in a `/docs` folder inside your repo for better organization.
 
