@@ -33,7 +33,7 @@ It allows users to browse featured listings, view detailed property pages, and c
 
 | Homepage | Property Details | Admin Panel |
 |-----------|------------------|--------------|
-| ![Homepage](/frontend\public\homepage.png)  | ![Property](/frontend/public/property.png) | ![Admin](/frontend\public\admin.png) |
+| ![Homepage](/frontend/public/homepage.png)  | ![Property](/frontend/public/property.png) | ![Admin](/frontend/public/admin.png) |
 
 > You can store screenshots in a `/docs` folder inside your repo for better organization.
 
@@ -55,5 +55,5 @@ It allows users to browse featured listings, view detailed property pages, and c
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/yourusername/dreamhomes.git
-cd dreamhomes/backend
+git clone https://github.com/0paziz/DreamHome-Client.git
+cd DreamHome-Client
