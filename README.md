@@ -25,7 +25,6 @@ It allows users to browse featured listings, view detailed property pages, and c
 ✅ Real-time slideshow and property gallery  
 ✅ Admin dashboard for managing properties  
 ✅ Secure user authentication with JWT  
-✅ Deployed on **Vercel** (frontend) and **MongoDB Atlas** (database)
 
 ---
 
@@ -35,7 +34,6 @@ It allows users to browse featured listings, view detailed property pages, and c
 |-----------|------------------|--------------|
 | ![Homepage](/frontend/public/homepage.png)  | ![Property](/frontend/public/property.png) | ![Admin](/frontend/public/admin.png) |
 
-> You can store screenshots in a `/docs` folder inside your repo for better organization.
 
 ---
 
